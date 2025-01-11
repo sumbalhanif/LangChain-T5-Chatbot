@@ -1,1 +1,2 @@
 # LangChain-T5-Chatbot
+ I used LangChain with T5 to build another question-answering chatbot. This project uses Hugging Face APIs, where I generated a new access token to access the API. A Pinecone database was used, and a new index was created through code, with cosine similarity as the measurement metric. The setup is hosted on AWS in the east region with read-only permissions. LangChain retrieves the top 5 relevant documents and generates an answer to the query from them using the T5 model.
